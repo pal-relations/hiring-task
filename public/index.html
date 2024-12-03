@@ -1,42 +1,272 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>パルシステム・リレーションズ 事前課題</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <main>
-      <h1 class="title">今日やったこと！</h1>
-      <div class="todos">
-        <div class="todo">
-          <div class="todo__title">読書</div>
-          <div class="todo__action">
-            <button class="todo__button">やった！</button>
-            <span class="todo__count">1,000</span>
+    <main
+      class="pt-16 pb-16 lg:pt-32 lg:pb-24 bg-white dark:bg-gray-900 antialiased"
+    >
+      <div class="flex justify-between px-4 mx-auto max-w-screen-xl">
+        <article
+          class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert"
+        >
+          <header class="mb-8 lg:mb-6 not-format">
+            <address class="flex items-center mb-10 not-italic">
+              <div
+                class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white"
+              >
+                <img
+                  class="mr-8 w-16 h-16 rounded-full"
+                  src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Kamo_no_Chomei.jpg"
+                  alt="Jese Leos"
+                />
+                <div>
+                  <a
+                    href="https://ja.wikipedia.org/wiki/%E9%B4%A8%E9%95%B7%E6%98%8E"
+                    rel="author"
+                    class="text-xl font-bold text-gray-900 dark:text-white"
+                    target="_blank"
+                    >鴨長明</a
+                  >
+                  <p class="text-base text-gray-500 dark:text-gray-400">
+                    Famous Japanese essayists
+                  </p>
+                  <p class="text-base text-gray-500 dark:text-gray-400">
+                    <time
+                      pubdate
+                      datetime="2022-02-08"
+                      title="February 8th, 2022"
+                      >Feb. 8, 1212</time
+                    >
+                  </p>
+                </div>
+              </div>
+            </address>
+            <h1
+              class="mb-8 text-center text-3xl font-extrabold leading-tight text-gray-900 lg:mb-12 lg:text-4xl dark:text-white"
+            >
+              『方丈記』 第一段
+            </h1>
+          </header>
+          <main class="dark:text-white">
+            <p>
+              　ゆく<ruby>河<rt>かは</rt></ruby
+              >の流れは絶えずして、しかも、もとの水にあらず。よどみに浮かぶうたかたは、かつ消え、かつ結びて、久しくとどまりたる<ruby
+                >例<rt>ため</rt></ruby
+              >しなし。世の中にある人と<ruby>栖<rt>すみか</rt></ruby
+              >と、またかくのごとし。
+            </p>
+
+            <p>
+              　たましきの<ruby>都<rt>みやこ</rt></ruby
+              >のうちに<ruby>棟<rt>むね</rt></ruby
+              >を並べ、<ruby>甍<rt>いらか</rt></ruby
+              >を争へる、高き、<ruby>卑<rt>いや</rt></ruby
+              >しき人の住まひは、<ruby>世<rt>よ</rt>々<rt>よ</rt></ruby
+              >を<ruby>経<rt>へ</rt></ruby
+              >て尽きせぬ物なれど、<ruby>是<rt>これ</rt></ruby
+              >をまことかと<ruby>尋<rt>たづ</rt></ruby
+              >ぬれば、昔ありし<ruby>家<rt>いへ</rt></ruby
+              >はまれなり。<ruby>或<rt>ある</rt></ruby
+              >いは<ruby>去年<rt>こぞ</rt></ruby
+              >焼けて、<ruby>今年<rt>ことし</rt></ruby
+              >つくれり。<ruby>或<rt>ある</rt></ruby
+              >いは<ruby>大<rt>おほ</rt>家<rt>いへ</rt></ruby
+              >ほろびて<ruby>小<rt>こ</rt>家<rt>いへ</rt></ruby
+              >となる。住む人も<ruby>是<rt>これ</rt></ruby
+              >に同じ。所も変はらず、人も<ruby>多<rt>おほ</rt></ruby
+              >かれど、いにしへ見し人は<ruby
+                >二<rt>に</rt>三<rt>さん</rt>十<rt>じふ</rt>人<rt
+                  >にん</rt
+                ></ruby
+              >が中にわづかに<ruby>一人<rt>ひとり</rt>二人<rt>ふたり</rt></ruby
+              >なり。<ruby>朝<rt>あした</rt></ruby
+              >に死に、<ruby>夕<rt>ゆふべ</rt></ruby
+              >に生まるるならひ、ただ水の<ruby>泡<rt>あわ</rt></ruby
+              >にぞ似たりける。
+            </p>
+
+            <p>
+              　知らず、生まれ死ぬる人、いづかたより来たりて、いづかたへか去る。また、知らず、<ruby
+                >仮<rt>かり</rt></ruby
+              >の<ruby>宿<rt>やど</rt></ruby
+              >り、<ruby>誰<rt>た</rt></ruby
+              >が<ruby>為<rt>ため</rt></ruby
+              >にか心を悩まし、何によりてか目をよろこばしむる。その<ruby
+                >主<rt>あるじ</rt></ruby
+              >と<ruby>栖<rt>すみか</rt></ruby
+              >と、<ruby>無常<rt>むじゃう</rt></ruby
+              >を争ふさま、いはば<ruby>朝<rt>あさ</rt>顔<rt>がほ</rt></ruby
+              >の露にことならず。<ruby>或<rt>ある</rt></ruby
+              >いは露落ちて、花残れり。残るといへども、朝日に枯れぬ。<ruby
+                >或<rt>ある</rt></ruby
+              >いは花しぼみて、露なほ消えず。消えずといへども、<ruby
+                >夕<rt>ゆふべ</rt></ruby
+              >を待つ事なし。
+            </p>
+          </main>
+          <div class="text-center">
+            <h3 class="mt-16 text-xl font-bold text-gray-900 dark:text-white">
+              記事のフィードバック
+            </h3>
+            <ul class="flex justify-center space-x-6 mt-8">
+              <li class="relative pt-1">
+                <button
+                  class="px-4 py-4 rounded-lg font-medium text-gray-600 dark:text-gray-300 hover:underline hover:bg-gray-50"
+                  data-type="educational"
+                >
+                  <i class="fa-solid fa-graduation-cap fa-2x"></i><br />
+                  <span class="text-sm">学びがある</span>
+                </button>
+                <span
+                  class="absolute top-0 right-0 bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300"
+                >
+                  500
+                </span>
+              </li>
+              <li class="relative pt-1">
+                <button
+                  class="px-4 py-4 rounded-lg font-medium text-gray-600 dark:text-gray-300 hover:underline hover:bg-gray-50"
+                  data-type="understandable"
+                >
+                  <i class="fa-regular fa-lightbulb fa-2x"></i><br />
+                  <span class="text-sm">わかりやすい</span>
+                </button>
+                <span
+                  class="absolute top-0 right-0 bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300"
+                >
+                  600
+                </span>
+              </li>
+              <li class="relative pt-1">
+                <button
+                  class="px-4 py-4 rounded-lg font-medium text-gray-600 dark:text-gray-300 hover:underline hover:bg-gray-50"
+                  data-type="new-perspective"
+                >
+                  <i class="fa-solid fa-exclamation fa-2x"></i><br />
+                  <span class="text-sm">新しい視点</span>
+                </button>
+                <span
+                  class="absolute top-0 right-0 bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300"
+                >
+                  700
+                </span>
+              </li>
+            </ul>
+            <div class="mt-4">
+              <label class="text-gray-600 mr-2 dark:text-gray-300"
+                >合計フィードバック数</label
+              >
+              <span class="text-2xl font-bold dark:text-white">1,800</span>
+            </div>
           </div>
-        </div>
-        <div class="todo">
-          <div class="todo__title">ランニング</div>
-          <div class="todo__action">
-            <button class="todo__button">やった！</button>
-            <span class="todo__count">500</span>
-          </div>
-        </div>
-        <div class="todo">
-          <div class="todo__title">親切</div>
-          <div class="todo__action">
-            <button class="todo__button">やった！</button>
-            <span class="todo__count">300</span>
-          </div>
-        </div>
-      </div>
-      <div class="total">
-        <span class="total__label">合計で</span>
-        <span class="total__count">1,800</span>
-        <span class="total__unit">回！</span>
+        </article>
       </div>
     </main>
+
+    <footer class="bg-gray-50 dark:bg-gray-800 antialiased">
+      <div class="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:p-10">
+        <div class="text-center">
+          <span
+            class="block text-sm text-center text-gray-500 dark:text-gray-400"
+            >© 2024
+            <a href="#" class="hover:underline">pal*system relations</a>. All
+            Rights Reserved.
+          </span>
+          <ul class="flex justify-center mt-5 space-x-5">
+            <li>
+              <a
+                href="#"
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+              >
+                <svg
+                  class="h-4 w-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 8 19"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12.186 8.672 18.743.947h-2.927l-5.005 5.9-4.44-5.9H0l7.434 9.876-6.986 8.23h2.927l5.434-6.4 4.82 6.4H20L12.186 8.672Zm-2.267 2.671L8.544 9.515 3.2 2.42h2.2l4.312 5.719 1.375 1.828 5.731 7.613h-2.2l-4.699-6.237Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
